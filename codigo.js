@@ -1,5 +1,21 @@
 const projectsContainer = document.querySelector(".projects");
 
+//Mobile Navbar expands
+const circle = document.querySelector(".circle");
+const hamburgerContainer = document.querySelector(".hamburger-container");
+const hamburgerIcon = document.querySelector(".hamburger");
+const closeBtn = document.querySelector(".close");
+
+hamburgerContainer.addEventListener("click", (e) => {
+  circle.classList.toggle("expand-circle");
+
+  hamburgerIcon.classList.toggle("nav-clicked");
+  setTimeout(() => {
+    closeBtn.classList.toggle("hidden");
+    hamburgerIcon.classList.toggle("hidden");
+  }, 500);
+});
+
 const icons = {
   ui: "https://www.codigo.co/img/ui/ico-uiux.svg",
   web: "https://www.codigo.co/img/ui/ico-uiux.svg",
