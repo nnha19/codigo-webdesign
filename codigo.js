@@ -5,6 +5,7 @@ const circle = document.querySelector(".circle");
 const hamburgerContainer = document.querySelector(".hamburger-container");
 const hamburgerIcon = document.querySelector(".hamburger");
 const closeBtn = document.querySelector(".close");
+const mobileNav = document.querySelector(".mobile-nav");
 
 hamburgerContainer.addEventListener("click", (e) => {
   circle.classList.toggle("expand-circle");
@@ -14,6 +15,7 @@ hamburgerContainer.addEventListener("click", (e) => {
     closeBtn.classList.toggle("hidden");
     hamburgerIcon.classList.toggle("hidden");
   }, 500);
+  mobileNav.classList.toggle("hidden");
 });
 
 const icons = {
