@@ -309,6 +309,9 @@ html {
   html {
     font-size: 70%;
   }
+  .projects {
+    grid-template-columns: 100%;
+  }
 }
 /*  */
 /* Mobile Nav */
