@@ -20,7 +20,7 @@ hamburgerContainer.addEventListener("click", (e) => {
 
 const icons = {
   ui: "https://www.codigo.co/img/ui/ico-uiux.svg",
-  web: "https://www.codigo.co/img/ui/ico-uiux.svg",
+  web: "https://www.codigo.co/img/ui/ico-web.svg",
   mobile: "https://www.codigo.co/img/ui/ico-app.svg",
   cms: "https://www.codigo.co/img/ui/ico-cms.svg",
 };
