@@ -124,3 +124,56 @@ html {
   grid-template-columns: 1fr 1fr;
   font-size: 0.8rem;
 }
+/* ======================== */
+
+.contact-section {
+  padding: 5rem 12rem;
+}
+.contact__header {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #d5333e;
+  margin-bottom: 3rem;
+}
+.contact__reasons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.contact__reason:not(:first-of-type) {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem !important;
+}
+.contact__reason {
+  padding: 1rem;
+}
+.contact__reason h2 {
+  margin-bottom: 10px;
+  transition: all 0.4s;
+}
+.contact__reason h2:hover {
+  color: #d5333e;
+}
+.contact__reason i {
+  margin-left: 0.4rem;
+  transition: all 1.25s cubic-bezier(0.2, 0.6, 0.4, 1);
+  font-size: 0.8rem;
+}
+.contact__reason h2:hover i {
+  transform: translateX(1rem);
+}
+/* =============== */
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  line-height: 2;
+}
+
+.socials {
+  margin-bottom: 1rem;
+}
+.socials a {
+  margin-right: 3rem;
+  color: black;
+  font-size: 2rem;
+}
