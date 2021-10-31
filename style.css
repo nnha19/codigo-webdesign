@@ -9,7 +9,7 @@ html {
 .nav {
   background-color: #fff;
   padding: 4rem;
-  padding-top: 30px;
+  padding-top: 20px;
   position: absolute;
   left: 0;
   top: 0;
@@ -60,4 +60,67 @@ html {
 }
 .nav__btn:hover {
   transform: scale(1.05);
+}
+/*  */
+.home-section {
+  padding: 0 12rem;
+  padding-top: 13rem;
+  height: 90vh;
+}
+.home__header {
+  font-size: 4.2rem;
+}
+.home__secondary-header {
+  color: #d5333e;
+}
+.categories {
+  display: flex;
+  list-style: none;
+  margin-top: 2rem;
+}
+.categories li {
+  padding: 10px 25px 10px 0;
+  width: 15rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.bold {
+  font-weight: 800 !important;
+  display: flex;
+  align-items: center;
+}
+.line {
+  content: "";
+  width: 1.5rem;
+  height: 2px;
+  background-color: #d5333e;
+  display: block;
+  margin-right: 1rem;
+}
+.categories-container {
+  display: flex;
+}
+.right-side {
+  margin-left: 5rem;
+  align-self: flex-end;
+  margin-left: 8rem;
+}
+.right-side h2 {
+  font-size: 0.9rem;
+}
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-weight: 200;
+  padding: 0.4rem 0;
+  padding-left: 2rem;
+  border-left: 1px solid black;
+}
+.services li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0.8rem;
 }
